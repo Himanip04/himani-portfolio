@@ -1,12 +1,12 @@
 # Frontend UI Assignment
 
-This project is a responsive frontend UI made by watching the Web and Mobile reference videos provided in the assignment. The focus of the project was to match the layout, spacing, fonts, colors and animations exactly like the reference UI.
+This project is a responsive frontend UI recreated by referring to the provided Web and Mobile design videos. The goal of this implementation was to match the layout, spacing, typography, colors, and animations as closely as possible to the original reference.
 
 ## Objective
-- Same UI recreate karna jaisa video me tha.
-- Mobile and Desktop dono me UI sahi chalna chahiye.
-- UI clean, smooth aur modern dikhna chahiye.
-- Code simple and component based hona chahiye.
+- Recreate the same UI as shown in the reference video.
+- Ensure smooth usability on both Mobile and Desktop screens.
+- Keep the UI clean, modern, and visually consistent.
+- Maintain a simple and reusable component-based code structure.
 
 ## Tech Used
 - React (Create React App)
@@ -15,31 +15,32 @@ This project is a responsive frontend UI made by watching the Web and Mobile ref
 
 ## Folder Structure
 src/
-components/
-MotivationCard.jsx
-ChatTopicCard.jsx
-TripNotificationCard.jsx
-ScrollStack.jsx
-pages/
-Home.jsx
-App.jsx
-index.js
+  components/
+    MotivationCard.jsx
+    ChatTopicCard.jsx
+    TripNotificationCard.jsx
+    ScrollStack.jsx
+  pages/
+    Home.jsx
+  App.jsx
+  index.js
 
-## What this UI contains
-- 3 Cards jo scroll ke sath animation me appear hote hain.
-- Cards scroll karte time slide hote hain and fade hote hain.
-- Mobile view me cards vertical dikhte hain.
-- Desktop view me layout adjust hota hai.
-- Animations smooth aur lag free hain (Framer Motion use kiya hai).
+## UI Features
+- Three cards appear with scroll-based animations.
+- Cards slide and fade smoothly during scrolling.
+- Mobile view displays the cards in a vertical stack.
+- Desktop view adjusts layout for wider screens.
+- Animations are smooth and fluid using Framer Motion.
 
 ## How to Run
-1. Project folder ko open karo
-2. Terminal me type karo:
+1. Open the project folder
+2. Run in the terminal:
    npm install
-3. Run karne ke liye:
+3. To start the project:
    npm start
-4. Browser me open ho jayega:
+4. The project will open in the browser at:
    http://localhost:3000
 
 ## Status
-Project complete and ready for submission.
+Project completed and ready for submission.
+
