@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-const PROFILE_PATH = "/profile.jpg"; // place uploaded photo at public/profile.jpg
-const RESUME_PATH = "/HimaniPantResume.pdf"; // place resume PDF at public/HimaniPantResume.pdf
+const PROFILE_PATH = "/profile.jpg"; 
+const RESUME_PATH = "/HimaniPantResume.pdf";
 
 export default function App() {
   const [dark, setDark] = useState(() => {
@@ -206,7 +206,7 @@ export default function App() {
             </div>
           </section>
 
-          <footer className={`mt-8 text-sm ${dark ? "text-gray-500" : "text-gray-500"}`}>© {new Date().getFullYear()} Himani Pant — Built with ❤️</footer>
+          <footer className={`mt-8 text-sm ${dark ? "text-gray-500" : "text-gray-500"}`}>© {new Date().getFullYear()} Himani Pant </footer>
         </main>
       </div>
     </div>
