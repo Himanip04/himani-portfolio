@@ -177,7 +177,7 @@ export default function App() {
             <h3 className="text-xl font-semibold">Education</h3>
             <div className={`mt-3 p-4 rounded-lg border ${dark ? "bg-gray-800 border-gray-700 text-gray-300" : "bg-gray-50 border-gray-200 text-gray-700"}`}>
               <div className="font-medium">B.Tech — Computer Science</div>
-              <div className="text-sm">Uttarakhand Technical University, Dehradun — 2023 (75%)</div>
+              <div className="text-sm">Uttarakhand Technical University, Dehradun — 2023 </div>
 
               <div className="mt-3 font-medium">Diploma — Computer Science & Engineering (2017–2020)</div>
             </div>
