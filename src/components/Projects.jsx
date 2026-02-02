@@ -28,6 +28,7 @@ export default function Projects({ dark }) {
   tech:
     "React · TanStack Query · TanStack Form · TanStack Table · Tailwind CSS · Node.js",
   github: "https://github.com/Himanip04/dynamic-form-app.git",
+  backend: "https://github.com/Himanip04/javaBackend.git",
 }
   ];
 
