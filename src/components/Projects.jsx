@@ -19,7 +19,16 @@ export default function Projects({ dark }) {
       tech: "React · Material UI / Shadcn · Axios · Node.js · MongoDB",
       live: "https://task-manager-uodate.netlify.app/",     
       github: "https://github.com/Himanip04/task-manager-frontend.git",
+      backend: "https://github.com/Himanip04/task-manager-backend.git",
     },
+    {
+  title: "Dynamic Form Builder & Submissions System",
+  desc:
+    "Built a full-stack dynamic form builder system that renders forms based on backend-driven schemas. Implemented dynamic field rendering, validation rules, form submission handling, and a paginated, sortable submissions table with server-side pagination and sorting.",
+  tech:
+    "React · TanStack Query · TanStack Form · TanStack Table · Tailwind CSS · Node.js",
+  github: "https://github.com/Himanip04/dynamic-form-app.git",
+}
   ];
 
   return (
