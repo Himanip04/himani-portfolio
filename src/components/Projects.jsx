@@ -17,8 +17,8 @@ export default function Projects({ dark }) {
       desc:
         "Developed a role-based task management application as part of a frontend-focused case study. Implemented authentication, light/dark theme support, responsive dashboard with pagination, and task create/edit functionality with admin-based access control.",
       tech: "React · Material UI / Shadcn · Axios · Node.js · MongoDB",
-      live: "https://your-live-link.com",      // 👈 yahan apna live link
-      github: "https://github.com/your-username/task-manager", // 👈 yahan repo link
+      live: "https://task-manager-uodate.netlify.app/",     
+      github: "https://github.com/Himanip04/task-manager-frontend.git",
     },
   ];
 
