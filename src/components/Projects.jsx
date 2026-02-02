@@ -92,6 +92,11 @@ export default function Projects({ dark }) {
                     GitHub
                   </a>
                 )}
+                 {p.backend && (
+              <a href={p.backend} target="_blank" rel="noreferrer" className="underline">
+                    Backend Repo
+                    </a>
+  )}
               </div>
             )}
           </div>
