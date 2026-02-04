@@ -10,12 +10,13 @@ import Sidebar from "./components/Sidebar";
 
 export default function PortfolioNeonDark() {
     const [dark, setDark] = useState(() => {
-        try {
-            return JSON.parse(localStorage.getItem("hp_theme")) ?? false;
-        } catch {
-            return false;
-        }
-    });
+  try {
+    const savedTheme = localStorage.getItem("hp_theme");
+    return savedTheme !== null ? JSON.parse(savedTheme) : true;
+  } catch {
+    return true;
+  }
+});
 
     useEffect(() => {
         localStorage.setItem("hp_theme", JSON.stringify(dark));
