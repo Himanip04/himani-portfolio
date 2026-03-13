@@ -10,7 +10,7 @@ export default function Stats({ dark }) {
           Experience
         </p>
         <p className={`text-xl font-bold ${dark ? "text-white" : "text-[#6e4f2a]"}`}>
-          2 Years
+          2+ Years
         </p>
       </div>
 
