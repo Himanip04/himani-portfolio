@@ -20,7 +20,14 @@ export default function Projects({ dark }) {
       live: "https://task-manager-uodate.netlify.app/",     
       github: "https://github.com/Himanip04/task-manager-frontend.git",
       backend: "https://github.com/Himanip04/task-manager-backend.git",
-    },
+    },{
+     title: "Job Listing Portal",
+     desc:
+    "Developed a modern job listing application that fetches job data from a paginated API and allows users to explore opportunities through advanced search, filtering, and sorting features. Implemented location, category, employment type, salary range, and remote filters along with pagination and infinite scroll for handling large datasets. Added CSV and PDF export functionality for filtered results and implemented dark mode with localStorage persistence to enhance user experience.",
+  tech: "Next.js · TypeScript · Tailwind CSS · shadcn/ui · PapaParse · jsPDF",
+  live: "https://job-potall.netlify.app/",
+  github: "https://github.com/Himanip04/job-portal-repo",
+},
     {
   title: "Dynamic Form Builder & Submissions System",
   desc:
