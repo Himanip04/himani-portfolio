@@ -80,6 +80,21 @@ const projects = [
   github: "https://github.com/Himanip04/catalog-app"
 },
   {
+    title: "Dynamic Multi-Category Catalog",
+    desc:
+      "Created a dynamic catalog app in Next.js that renders products by category and supports item detail pages.",
+    features: [
+      "Category-based dynamic product listing",
+      "Dynamic routing for product details",
+      "Search functionality",
+      "Responsive styling for improved UX"
+    ],
+    tech: "Next.js · JavaScript · CSS · JSON Data Handling · Git · Netlify",
+    live: "https://catalogt.netlify.app/",
+    github: "https://github.com/Himanip04/catalog-app.git"
+  },
+
+  {
     title: "Dynamic Form Builder & Submissions System",
     desc:
       "Built a dynamic form system based on backend-driven schemas.",
